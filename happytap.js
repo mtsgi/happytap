@@ -47,7 +47,7 @@ class Game{
         $('#p2').off();
         $('#p1 h3').text(Game.p1);
         $('#p2 h3').text(Game.p2);
-        $('aside').show().text('Result (Click to Restart)');
+        $('aside').show().text('Click to Restart');
         Game.countremain = 3;
         Game.timeremain = 10;
         Game.p1 = 0;
@@ -62,7 +62,7 @@ Game.p1 = 0;
 Game.p2 = 0;
 Game.event = null;
 
-$('main').on('touchstart', () => {
+$('aside').on('touchstart', () => {
     if( !Game.active ){
         Game.event = 'touchstart';
         Game.init();
@@ -70,7 +70,7 @@ $('main').on('touchstart', () => {
 });
 
 
-$('main').on('mousedown', () => {
+$('aside').on('mousedown', () => {
     if( !Game.active ){
         Game.event = 'mousedown';
         Game.init();
