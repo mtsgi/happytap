@@ -1,3 +1,25 @@
+<template>
+  <div id="app">
+    <header></header>
+    <aside>Click to Start</aside>
+    <main>
+        <div id="p1">
+            <h3>0</h3>
+        </div>
+        <div id="p2">
+            <h3>0</h3>
+        </div>
+    </main>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'app'
+}
+</script>
+
+<style>
 main {
     display: flex;
 }
@@ -55,3 +77,4 @@ aside:hover {
 #p2:active {
     background: rgba(186, 230, 255, 1);
 }
+</style>
