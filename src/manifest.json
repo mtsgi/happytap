@@ -1,0 +1,11 @@
+{
+  "name": "Happy Tap",
+  "short_name": "Happy Tap",
+  "theme_color": "#f32121",
+  "background_color": "#f32121",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": null,
+  "splash_pages": null
+}
